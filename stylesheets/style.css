@@ -1,0 +1,171 @@
+.header {
+	width: 100%;
+	height: 110px;
+	background-color: #014e8f;
+}
+#navbar-a:hover {
+	background-color: #014e8f;
+}
+.content {
+	width: 100%;
+	height: 200px;
+	background-color: #fff;
+}
+ .text-content {
+	padding-top: 30px;
+}
+.content-1 {
+	width: 100%;
+	height: 200px;
+	background-color: #fff;
+	display: inline-block;	
+}
+#button-tag{
+	background-color: #8f014e; 
+}
+#button-tag:hover {
+	background-color: #000000;
+}
+#button-tag:hover {
+	color: #fff;
+}
+/*europe*/
+/*** Default shared CSS ****/
+
+figure.blurfilter{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	overflow: hidden; /* hide overflowing elements by default */
+}
+
+figure.blurfilter img{
+	display: block;
+	width: 250px; /* width of image */
+	height: auto;
+	transition: all 0.4s 0.4s;
+}
+
+figure.blurfilter figcaption{
+	position: absolute;
+	display: block;
+	text-align: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	text-align: center;
+	background: white;
+	padding: 10px;
+	z-index: 100;
+	width: 90%;
+	height: 90%;
+	overflow: hidden;
+	top: 5%;
+	left: 5%;
+  font-family: 'Josefin Sans', sans-serif; /* google font */
+	font-size: 16px;
+	opacity: 0;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all .4s;
+}
+
+
+figure.blurfilter figcaption h3{
+	border-bottom: 1px solid red;
+	text-align: left;
+	width: 90%;
+	margin: 0;
+}
+
+figure.blurfilter figcaption p{
+	text-align: left;
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+figure.blurfilter figcaption a{
+	text-decoration: none;
+}
+/* Default effect */
+
+figure.blurfilter:hover img{
+  -webkit-filter: blur(30px); /* blur filter */
+  filter: blur(30px); /* blur filter */
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+figure.blurfilter:hover figcaption{
+	opacity: 1;
+	box-shadow: 0 0 5px gray;
+	-moz-transition: all .4s .4s;
+	-webkit-transition: all .4s .4s;
+	transition: all .4s .4s;
+}
+
+/* Rotate figcation effect */
+
+figure.blurfilter figcaption{
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+figure.blurrotate:hover figcaption{
+	-webkit-transform: rotate(0);
+	transform: rotate(0);
+}
+
+body {
+  font-family: 'liquid_crystalregular', sans-serif;
+  user-select: none;
+  user-drag: none;
+}
+#clock {
+  height: 100px;
+  width: 70%;
+  line-height: 100px;  
+  margin: 150px auto 0;
+  padding: 0 50px;
+  background: #8f014e;
+  color: #eee;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 7px #222;
+  text-shadow: 0 0 3px #fff;
+}
+span#hours {
+	font-size: 4.5em;
+	color:  #014e8f;
+
+}
+span#minutes {
+	font-size: 4.5em;
+	color:  #014e8f;
+}
+span#seconds {
+	font-size: 4.5em;
+	color:  #014e8f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
